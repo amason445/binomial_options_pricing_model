@@ -11,7 +11,7 @@ There are class modules for [American and European](https://www.investopedia.com
 
 ## Future Ideas
 - Package script with an interface or class inheritance model
-- Black Scholes - Merton Model
+- Add Black Scholes - Merton Model
 - Exotic options (asian, bermudan)
 - More robust output and visualizations
 
