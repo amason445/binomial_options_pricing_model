@@ -12,10 +12,10 @@ There are also class modules for [American and European](https://www.investopedi
 - At the Money Call (Spot: $100, Strike: $100):
   
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/at%20the%20money.png)
-- Out of the Money Call (Spot: $100, Strike: $120):
+- In the Money Call (Spot: $100, Strike: $120):
   
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/in%20the%20money.png)
-- In of the Money Call (Spot: $100, Strike: $80):
+- Out of the Money Call (Spot: $100, Strike: $80):
 
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/out%20of%20the%20money.png)
 
