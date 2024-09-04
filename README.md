@@ -7,7 +7,7 @@ This repository contains a Java Application that can calculate options prices us
 There are class modules for [American and European](https://www.investopedia.com/articles/optioninvestor/08/american-european-options.asp) put contracts. To allow for an American style exercise, as the script progresses through the backwards induction, another check is made for the calls and puts by taking the maximum of the exercise or the hold value. Unlike European style exercises, American options can be exercised early so this must be accounted for throughout the duration of the contract.
 
 ## Results
-[!alt_text](https://github.com/amason445/binomial_options_pricing_model/blob/main/Screenshot%202024-09-03%20200335.png)
+![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/Screenshot%202024-09-03%20200335.png)
 
 ## References
 - https://www.investopedia.com/terms/b/binomialoptionpricing.asp
