@@ -17,6 +17,7 @@ There are also class modules for [American and European](https://www.investopedi
 - Add Black Scholes - Merton Model
 - Exotic options (asian, bermudan)
 - More robust output and visualizations
+- Testing against live options chains
 
 ## References
 - https://www.investopedia.com/terms/b/binomialoptionpricing.asp
