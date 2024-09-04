@@ -9,6 +9,12 @@ There are class modules for [American and European](https://www.investopedia.com
 ## Results
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/Screenshot%202024-09-03%20200335.png)
 
+## Future Ideas
+- Package script with an interface or class inheritance model
+- Black Scholes - Merton Model
+- Exotic options (asian, bermudan)
+- More robust output and visualizations
+
 ## References
 - https://www.investopedia.com/terms/b/binomialoptionpricing.asp
 - https://en.wikipedia.org/wiki/Binomial_options_pricing_model
