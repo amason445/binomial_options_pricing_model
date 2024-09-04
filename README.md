@@ -10,10 +10,13 @@ There are also class modules for [American and European](https://www.investopedi
 
 ## Results
 - At the Money:
+  
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/at%20the%20money.png)
 - In the Money:
+  
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/in%20the%20money.png)
-- Out of the Money:
+- Out of the Money"
+
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/out%20of%20the%20money.png)
 
 ## Future Ideas
