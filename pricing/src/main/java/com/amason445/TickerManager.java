@@ -15,17 +15,16 @@ public class TickerManager {
 
     public void fillProperties() {
         try (InputStream input = TickerManager.class.getClassLoader().getResourceAsStream(tickerName + ".properties")) {
-    
             if (input == null) {
                 System.out.println("Sorry, unable to find " + tickerName + ".properties in project resources");
                 return;
             }
-    
             tickerFeatures.load(input);
         } catch (IOException ex) {
             ex.printStackTrace();
         }
     }
+    
     public double getSpotPrice() {
         return getDoubleProperty("ticker.spot");
     }
@@ -49,6 +48,4 @@ public class TickerManager {
             throw new IllegalArgumentException("Invalid format for " + key + ": " + value);
         }
     }
-
-
 }
