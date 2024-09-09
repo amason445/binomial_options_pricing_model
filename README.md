@@ -20,7 +20,6 @@ There are also class modules for [American and European](https://www.investopedi
 ![alt text](https://github.com/amason445/binomial_options_pricing_model/blob/main/out%20of%20the%20money.png)
 
 ## Future Ideas
-- User interface (CLI/Config File)
 - Package application with an interface or class inheritance model
 - Add Black Scholes - Merton Model
 - Exotic options (asian, bermudan)
