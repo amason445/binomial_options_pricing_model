@@ -5,15 +5,15 @@ public class BinomialOptionsPricing
     public static void main( String[] args )
     {
         // ticker resource file
-        TickerManager tsla = new TickerManager("tsla");
-        tsla.fillProperties();
+        TickerManager ticker = new TickerManager("cboe");
+        ticker.fillProperties();
 
         // Parameters
         int N = 1000; // Number of steps
-        double S0 = tsla.getSpotPrice(); // Initial stock price
-        double K = tsla.getStrikePrice(); // Strike price
+        double S0 = ticker.getSpotPrice(); // Initial stock price
+        double K = ticker.getStrikePrice(); // Strike price
         double r = 0.05; // Risk-free rate
-        double sigma = tsla.getSigma(); // Volatility
+        double sigma = ticker.getSigma(); // Volatility
         double T = 1.0; // Time to maturity in years
 
         // Create an instances of options prices
